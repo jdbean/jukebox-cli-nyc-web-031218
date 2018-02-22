@@ -45,7 +45,7 @@ def play(my_songs)
   #get the file path of the song by looking it up in the my_songs hash
   puts "Please enter a song name or number:"
   input = gets.chomp
-  my_songs.each do |title|
+  my_songs.each do |title, path|
     # binding.pry
     if input == title
       puts "Playing #{title}"
