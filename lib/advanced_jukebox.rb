@@ -2,15 +2,15 @@
 #make sure to edit the value of each key to replace < path to this directory >
 #with the correct path to this directory on your computer
 
-# my_songs = {
-# "Go Go GO" => '< path to this directory >/jukebox-cli/audio/Emerald-Park/01.mp3',
-# "LiberTeens" => '< path to this directory >/jukebox-cli/audio/Emerald-Park/02.mp3',
-# "Hamburg" =>  '< path to this directory >/jukebox-cli/audio/Emerald-Park/03.mp3',
-# "Guiding Light" => '< path to this directory >/jukebox-cli/audio/Emerald-Park/04.mp3',
-# "Wolf" => '< path to this directory >/jukebox-cli/audio/Emerald-Park/05.mp3',
-# "Blue" => '< path to this directory >/jukebox-cli/audio/Emerald-Park/06.mp3',
-# "Graduation Failed" => '< path to this directory >/jukebox-cli/audio/Emerald-Park/07.mp3'
-# }
+my_songs = {
+"Go Go GO" => '/home/jdbean/.atom/.learn-ide/home/jdbean/jukebox-cli-nyc-web-031218/audio/Emerald-Park/01.mp3',
+"LiberTeens" => '/home/jdbean/.atom/.learn-ide/home/jdbean/jukebox-cli-nyc-web-031218/audio/Emerald-Park/02.mp3',
+"Hamburg" =>  '/home/jdbean/.atom/.learn-ide/home/jdbean/jukebox-cli-nyc-web-031218/audio/Emerald-Park/03.mp3',
+"Guiding Light" => '/home/jdbean/.atom/.learn-ide/home/jdbean/jukebox-cli-nyc-web-031218/audio/Emerald-Park/04.mp3',
+"Wolf" => '/home/jdbean/.atom/.learn-ide/home/jdbean/jukebox-cli-nyc-web-031218/audio/Emerald-Park/05.mp3',
+"Blue" => '/home/jdbean/.atom/.learn-ide/home/jdbean/jukebox-cli-nyc-web-031218/audio/Emerald-Park/06.mp3',
+"Graduation Failed" => '/home/jdbean/.atom/.learn-ide/home/jdbean/jukebox-cli-nyc-web-031218/audio/Emerald-Park/07.mp3'
+}
 
 def help
   puts "I accept the following commands:"
