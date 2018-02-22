@@ -1,3 +1,5 @@
+require 'pry'
+
 songs = [
   "Phoenix - 1901",
   "Tokyo Police Club - Wait Up",
@@ -30,6 +32,7 @@ end
 def play(songs)
   puts "Please enter a song name or number:"
   input = gets.chomp
+  binding.pry
   songs.each_with_index do |title, index|
     if input == index + 1 || input == title
       puts "Playing #{title}"
