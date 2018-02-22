@@ -28,8 +28,10 @@ def list(songs)
 end
 
 def play(songs)
-
-
+  puts "Please enter a song name or number:"
+  input = gets.chomp
+  songs.each_with_index do |title, index|
+    if input == index + 1 || input == title
 end
 
 def exit_jukebox
