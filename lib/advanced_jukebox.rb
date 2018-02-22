@@ -2,6 +2,8 @@
 #make sure to edit the value of each key to replace < path to this directory >
 #with the correct path to this directory on your computer
 
+require 'pry'
+
 my_songs = {
 "Go Go GO" => '/home/jdbean/.atom/.learn-ide/home/jdbean/jukebox-cli-nyc-web-031218/audio/Emerald-Park/01.mp3',
 "LiberTeens" => '/home/jdbean/.atom/.learn-ide/home/jdbean/jukebox-cli-nyc-web-031218/audio/Emerald-Park/02.mp3',
