@@ -51,5 +51,18 @@ end
 
 def run(songs)
   help
-  input = request_input
+  loop do
+    input = request_input
+    case input
+      when "help"
+        help
+      when "list"
+        list(songs)
+      when "play"
+        play(songs)
+      when "exit"
+        exit_jukebox
+        break
+    end
+  end
 end
