@@ -24,8 +24,9 @@ end
 
 
 def list(my_songs)
-  #this method is different! Collect the keys of the my_songs hash and
-  #list the songs by name
+  puts my_songs.collect do |titles|
+    titles
+  end
 end
 
 
