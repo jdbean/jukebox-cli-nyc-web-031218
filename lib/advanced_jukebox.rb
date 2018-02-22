@@ -62,7 +62,7 @@ def request_input
   gets.chomp
 end
 
-def run(songs)
+def run(my_songs)
   help
   loop do
     input = request_input
