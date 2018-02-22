@@ -48,7 +48,7 @@ def play(my_songs)
     # binding.pry
     if input == title
       puts "Playing #{title}"
-      system 'xdg-open #{path}'
+      `xdg-open #{path}`
       return
     end
   end
