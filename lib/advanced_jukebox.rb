@@ -26,7 +26,7 @@ end
 
 
 def list(my_songs)
-  my_songs.each do |titles|
+  my_songs.each do |titles, path|
     binding.pry
     titles
   end
