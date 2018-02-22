@@ -25,12 +25,12 @@ end
 
 def list(my_songs)
   puts my_songs.collect do |titles|
-    binding.pry
+    # binding.pry
     titles
   end
 end
 
-list(my_songs)
+# list(my_songs)
 
 
 def play(my_songs)
