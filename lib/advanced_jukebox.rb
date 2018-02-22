@@ -27,12 +27,11 @@ end
 
 def list(my_songs)
   my_songs.each do |titles, path|
-    binding.pry
+    # binding.pry
     titles
   end
 end
 
-list(my_songs)
 
 
 def play(my_songs)
